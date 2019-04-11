@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "build-dev": "webpack -d --mode development",
-    "build-prod": "webpack -p --mode production"
+    "build-prod": "webpack -p --mode production",
+    "watch": "webpack --watch --info-verbosity verbose"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +16,8 @@
     "express": "^4.16.4",
     "file-system": "^2.2.2",
     "materialize-css": "^1.0.0-rc.2",
+    "mp3-duration": "^1.1.0",
+    "node-id3": "^0.1.7",
     "path": "^0.12.7"
   },
   "devDependencies": {
